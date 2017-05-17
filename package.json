@@ -1,0 +1,30 @@
+{
+  "name": "bachkatze-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Thomas Keller",
+    "email": "w4pservice@gmail.com"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/gulp": "^4.0.2",
+    "@types/gulp-nodemon": "0.0.30",
+    "@types/node": "^7.0.18",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-tsb": "^2.0.3",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "jade": "^1.11.0"
+  }
+}
