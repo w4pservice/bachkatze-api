@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var tsb = require('gulp-tsb');
 var nodemon = require('gulp-nodemon');
 
-gulp.task('default', ['nodemon', 'watch',]);
+gulp.task('default', ['build-all', 'watch', 'nodemon']);
 
 gulp.task('watch', function () {
     gulp.watch('src/**/*.ts', ['build']);
@@ -33,3 +33,5 @@ gulp.task('nodemon', function (cb) {
 		} 
 	});
 });
+
+gulp.task('build-all', ['build', 'views']);
